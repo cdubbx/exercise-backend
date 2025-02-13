@@ -1,0 +1,4076 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "exercise"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "savedworkout"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "plannedworkout"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "social_django",
+    "model": "association"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "social_django",
+    "model": "code"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "social_django",
+    "model": "nonce"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "social_django",
+    "model": "usersocialauth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "social_django",
+    "model": "partial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "useruploadworkedouts"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "backend1",
+    "model": "nowplayingtrack"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1ify0vyw8dlcs59e075ricsu1av4thaw",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1s7l0M:JqgnUNYzVRGUCyb6kPP8683REUOZJoxFjY7bPZmbQ2o",
+    "expire_date": "2024-05-30T23:59:22.093Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3u3qaqkgatbdw25mhpjwpx4z4tyfuuoq",
+  "fields": {
+    "session_data": ".eJxVjTkOwjAQRe_iGlveZpyhpOcMke0ZExYlUpYKcXcUKQXU_73336rP2zr02yJzf2d1ViiNGxJosUl0JPK6uJg1ckwuCNvGTp1-tZLrU8bd5Uceb5Op07jO92J2xBzrYq4Ty-tysH-BIS_D_ozJdlAcRMpYW9dCLMF6xAChVgregiVokDx5ccUJo23gqWbGEqRTny_psEBp:1tZx0p:uqVqWTaQonx4er6DS9fu0snHFNUiK4g120ewUFGFhYc",
+    "expire_date": "2025-02-03T19:00:39.762Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5p4uxgkejtjfapdlqb95sxo9kvarypwi",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnYXv8o6TmDtd51cAA5UpxUiLuTSCmgfTPz3iLhutS09jKnkcVFKHH63TLSs7Qd8APbfZI0tWUes9wVedAubxOX1_Vw_w4q9rrVBkshR9EgRwWGkQBMdJos2QE3CCFo5b2G7AYf0DkLAc5MGKLJqMXnC_eVOAo:1rebWy:NHZJIrCo-7USy7dokNO4ZQP7RbRKWaS0fQyDvZBMRYI",
+    "expire_date": "2024-03-11T14:00:32.515Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "74hys91p6kgf7ftyutd2ftbr7n6xbskn",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1slxc0:suhtmXkxmqRyRY4vTyFCkhXMc2ve-2gglOuuKBblbQk",
+    "expire_date": "2024-09-18T21:32:24.156Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "98m3tzmkd2k4c37q68o1trpsccrpryzs",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1srwLe:WtTQkg84W0rk59dIh7fGon6YiaP9urmH2exLTfR4mC0",
+    "expire_date": "2024-10-05T09:24:14.934Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9iq0agr0yclpwffyqyaezw8ymnn0gqip",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1sj9VX:QXIf2aZjsBcOJxOV93cLSMMzgbhqiM59kYQUNhUd808",
+    "expire_date": "2024-09-11T03:38:07.977Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9s37odh516dx0r334o8mkt1lwfr14wlf",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1rhHw8:uPis41l1IuVO-v2cy2Bl5lqSSboXop55M86D2DcjCRo",
+    "expire_date": "2024-03-18T23:41:36.303Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p7eyqqd89krxdlhhtef1ah4j41f5pmsl",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1roEeE:18HrIfcpMrcdR3ythtA1MBMybE1O2RPRdRmcyvX0uGU",
+    "expire_date": "2024-04-07T03:35:50.132Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r4x425wyvv9mrflclq2ar8wfrwhx25i8",
+  "fields": {
+    "session_data": ".eJxVzLsOwjAMheF3yUwjO3ESzMjOM1ROnFIuaqVeJsS7Q6UOMJ__Oy_Tyrr07TrXqb2pOZlYO-0ih6ZCqg0xuyYjSROVEvqq0Cmawy_LUh512KzeZbiOtozDMt2y3RK7r7O9jFqf5739O-hl7r-alRGkA04hMOSi6ACDF0kRIkrNTijpMVHg4h1lH1zBiA6ZyAOQeX8A99A_sg:1rorXl:tmk42csXjzx7ZwTMEKac0L-ziGYexW8fRhmtgIrWaoc",
+    "expire_date": "2024-04-08T21:07:45.089Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rjs3xcrn9l48sq5u8g53ob28uk77ggo7",
+  "fields": {
+    "session_data": ".eJxVjTkOwjAQRe_iGlveZpyhpOcMke0ZExYlUpYKcXcUKQXU_73336rP2zr02yJzf2d1ViiNGxJosUl0JPK6uJg1ckwuCNvGTp1-tZLrU8bd5Uceb5Op07jO92J2xBzrYq4Ty-tysH-BIS_D_ozJdlAcRMpYW9dCLMF6xAChVgregiVokDx5ccUJo23gqWbGEqRTny_psEBp:1tf6ia:ngmBJuYFZLqiK49z8KG1v3-LLzjpT16uGZ1gNPNFTSg",
+    "expire_date": "2025-02-18T00:23:08.716Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wkjxj1co158164yskgqxassx3givpwbu",
+  "fields": {
+    "session_data": ".eJxVzDkOwjAQheG7uMaWPRlvlPScIbI9M4RFiZSlQtwdRUoB9fu_91Z92dah3xae-zupswosJCF7zTayxpxBV4dFB8LoOiYr5NTpl9XSnjzulh5lvE2mTeM636vZE3Osi7lOxK_L0f4dDGUZdm2BpVlOzbsYbCfoEuXgKoJ3FdBRTbEhiAcpNnXIUq1gBp8yYAjq8wUPhkCQ:1tU2He:oEywUigFm-IpapvZNvCHiDhBI1dij-mYBd4Co6wh6YI",
+    "expire_date": "2025-01-18T11:25:34.481Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xxu6tivunowwvlj027bh61tm79283kjc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEDtHRw6d5vIAPDSNXQpI-V8d-1SRe6veec-1KRtrXGbSlzHFmdlVGn3y1RfpS2A75Tu006T22dx6R3RR900deJy_NyuH8HlZb6raWwg9AFcWTAewYLlJA7RpNMEJtBpEdCFMrQD3kQ3_vOh1DAIoFT7w_nVDep:1rhGQ1:Fu23yjQIm4wqI0fbKP5yn628nUpm0tSHqqqJkUxGkvw",
+    "expire_date": "2024-03-18T22:04:21.676Z"
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "00aeffe0-cc05-48aa-a7d2-0169bc7c2e42",
+  "fields": {
+    "name": "Standing Dumbbell Calf Raise",
+    "aliases": null,
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": null,
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Stand with your torso upright holding two dumbbells in your hands by your sides. Place the ball of the foot on a sturdy and stable wooden board (that is around 2-3 inches tall) while your heels extend off and touch the floor. This will be your starting position.",
+      "With the toes pointing either straight (to hit all parts equally), inwards (for emphasis on the outer head) or outwards (for emphasis on the inner head), raise the heels off the floor as you exhale by contracting the calves. Hold the top contraction for a second.",
+      "As you inhale, go back to the starting position by slowly lowering the heels.",
+      "Repeat for the recommended amount of times."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:03:46.470Z",
+    "date_updated": "2024-02-27T19:42:30.404Z",
+    "img_url": [
+      "https://s3assets.skimble.com/assets/1185099/image_iphone.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "191cfc24-ac60-4426-8e15-ca4af8674736",
+  "fields": {
+    "name": "Dumbbell Flies",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": null,
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. The palms of your hand will be facing each other.",
+      "Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time so you can hold them in front of you at shoulder width with the palms of your hands facing each other. Raise the dumbbells up like you're pressing them, but stop and hold just before you lock out. This will be your starting position.",
+      "With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint.",
+      "Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.",
+      "Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:22:55.282Z",
+    "date_updated": "2024-02-27T19:41:41.575Z",
+    "img_url": [
+      "http://weighttrainingexercises4you.com/wp-content/uploads/Incline-Dumbbell-Flyes.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "194c33b7-3186-44b7-b3d6-17f0e97c789d",
+  "fields": {
+    "name": "Bent-Knee Hip Raise",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lay flat on the floor with your arms next to your sides.",
+      "Now bend your knees at around a 75 degree angle and lift your feet off the floor by around 2 inches.",
+      "Using your lower abs, bring your knees in towards you as you maintain the 75 degree angle bend in your legs. Continue this movement until you raise your hips off of the floor by rolling your pelvis backward. Breathe out as you perform this portion of the movement. Tip: At the end of the movement your knees will be over your chest.",
+      "Squeeze your abs at the top of the movement for a second and then return to the starting position slowly as you breathe in. Tip: Maintain a controlled motion at all times.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:47:57.003Z",
+    "date_updated": "2024-02-27T19:40:38.299Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bent-Knee_Hip_Raise/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bent-Knee_Hip_Raise/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "1cdfcdfa-925e-4ad0-b1b3-b3e0d68a0129",
+  "fields": {
+    "name": "Glute Bridge",
+    "aliases": null,
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position.",
+      "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second.",
+      "Slowly go back to the starting position as you breathe in."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:26:49.630Z",
+    "date_updated": "2024-02-27T19:39:57.575Z",
+    "img_url": [
+      "https://hips.hearstapps.com/hmg-prod/images/tech-school-glute-bridge-1-1611664608.jpg?crop=0.5xw:1xh;center,top&resize=2048:*"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "216b26f2-c86e-41f1-9f0a-20e40cd7029a",
+  "fields": {
+    "name": "Incline Dumbbell Curl",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Sit back on an incline bench with a dumbbell in each hand held at arms length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. This will be your starting position.",
+      "While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a second.",
+      "Slowly begin to bring the dumbbells back to starting position as your breathe in.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:02:47.186Z",
+    "date_updated": "2024-02-27T19:38:51.995Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Flexor_Incline_Dumbbell_Curls/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Flexor_Incline_Dumbbell_Curls/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "2423a42d-febf-4876-a260-18bd694f03a8",
+  "fields": {
+    "name": "Cable Crunch",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "cable",
+    "category": "strength",
+    "instructions": [
+      "Kneel below a high pulley that contains a rope attachment.",
+      "Grasp cable rope attachment and lower the rope until your hands are placed next to your face.",
+      "Flex your hips slightly and allow the weight to hyperextend the lower back. This will be your starting position.",
+      "With the hips stationary, flex the waist as you contract the abs so that the elbows travel towards the middle of the thighs. Exhale as you perform this portion of the movement and hold the contraction for a second.",
+      "Slowly return to the starting position as you inhale. Tip: Make sure that you keep constant tension on the abs throughout the movement. Also, do not choose a weight so heavy that the lower back handles the brunt of the work.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:53:06.331Z",
+    "date_updated": "2024-02-27T19:36:24.919Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Crunch/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Crunch/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "2890b3a6-1254-4833-8364-c9f77c6d6adc",
+  "fields": {
+    "name": "Barbell Glute Bridge",
+    "aliases": null,
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hamstrings"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "powerlifting",
+    "instructions": [
+      "Begin seated on the ground with a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise. Roll the bar so that it is directly above your hips, and lay down flat on the floor.",
+      "Begin the movement by driving through with your heels, extending your hips vertically through the bar. Your weight should be supported by your upper back and the heels of your feet.",
+      "Extend as far as possible, then reverse the motion to return to the starting position."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:09:43.888Z",
+    "date_updated": "2024-02-27T19:35:30.189Z",
+    "img_url": [
+      "https://s3assets.skimble.com/assets/1796246/image_iphone.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "37677c0c-6036-4ea1-8e55-71bb43dcd239",
+  "fields": {
+    "name": "Concentration Curls",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Sit down on a flat bench with one dumbbell in front of you between your legs. Your legs should be spread with your knees bent and feet on the floor.",
+      "Use your right arm to pick the dumbbell up. Place the back of your right upper arm on the top of your inner right thigh. Rotate the palm of your hand until it is facing forward away from your thigh. Tip: Your arm should be extended and the dumbbell should be above the floor. This will be your starting position.",
+      "While holding the upper arm stationary, curl the weights forward while contracting the biceps as you breathe out. Only the forearms should move. Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level. Tip: At the top of the movement make sure that the little finger of your arm is higher than your thumb. This guarantees a good contraction. Hold the contracted position for a second as you squeeze the biceps.",
+      "Slowly begin to bring the dumbbells back to starting position as your breathe in. Caution: Avoid swinging motions at any time.",
+      "Repeat for the recommended amount of repetitions. Then repeat the movement with the left arm."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:51:32.875Z",
+    "date_updated": "2024-02-27T19:31:16.164Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Concentration_Curls/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Concentration_Curls/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "50103c12-7c8f-4ffe-b307-2cf1dae4aa67",
+  "fields": {
+    "name": "Dumbbell Bench Press",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other.",
+      "Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width.",
+      "Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position.",
+      "Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it.",
+      "Repeat the movement for the prescribed amount of repetitions of your training program."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:27:05.924Z",
+    "date_updated": "2024-02-27T13:18:18.085Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Bench_Press/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Bench_Press/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "59d63e0e-7d38-42bf-b835-d8412b9cbabe",
+  "fields": {
+    "name": "Barbell Ab Rollout",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "lower back",
+      "shoulders"
+    ],
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "strength",
+    "instructions": [
+      "For this exercise you will need to get into a pushup position, but instead of having your hands of the floor, you will be grabbing on to an Olympic barbell (loaded with 5-10 lbs on each side) instead. This will be your starting position.",
+      "While keeping a slight arch on your back, lift your hips and roll the barbell towards your feet as you exhale. Tip: As you perform the movement, your glutes should be coming up, you should be keeping the abs tight and should maintain your back posture at all times. Also your arms should be staying perpendicular to the floor throughout the movement. If you don't, you will work out your shoulders and back more than the abs.",
+      "After a second contraction at the top, start to roll the barbell back forward to the starting position slowly as you inhale.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:44:20.525Z",
+    "date_updated": "2024-02-27T13:17:05.860Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Ab_Rollout/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Ab_Rollout/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "64aa5b22-65a3-4dac-a837-d313cd79e3a6",
+  "fields": {
+    "name": "Single Leg Deadlift",
+    "aliases": null,
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "lower back",
+      "core"
+    ],
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Stand with your feet hip-width apart, holding a dumbbell in each hand at your sides.",
+      "Shift your weight onto your left foot and lift your right foot slightly off the ground, keeping your left knee slightly bent.",
+      "Keeping your back straight, hinge at your hips and lower your torso forward while raising your right leg straight back behind you.",
+      "Lower the dumbbells towards the ground, maintaining a neutral spine and keeping your hips square.",
+      "Lower until your torso is parallel to the ground or until you feel a stretch in your hamstrings, then return to the starting position by squeezing your glutes and pushing through your left heel.",
+      "Repeat for the desired number of repetitions, then switch legs and perform the same movement on the other side."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:33:44.365Z",
+    "date_updated": "2024-02-27T13:15:50.999Z",
+    "img_url": [
+      "https://boxlifemagazine.com/wp-content/uploads/2023/01/image-17.jpeg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "6e5c5ea1-4228-4b35-ac53-bcbad792c490",
+  "fields": {
+    "name": "Decline Barbell Bench Press",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "strength",
+    "instructions": [
+      "Secure your legs at the end of the decline bench and slowly lay down on the bench.",
+      "Using a medium width grip (a grip that creates a 90-degree angle in the middle of the movement between the forearms and the upper arms), lift the bar from the rack and hold it straight over you with your arms locked. The arms should be perpendicular to the floor. This will be your starting position. Tip: In order to protect your rotator cuff, it is best if you have a spotter help you lift the barbell off the rack.",
+      "As you breathe in, come down slowly until you feel the bar on your lower chest.",
+      "After a second pause, bring the bar back to the starting position as you breathe out and push the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position, hold for a second and then start coming down slowly again. Tip: It should take at least twice as long to go down than to come up).",
+      "Repeat the movement for the prescribed amount of repetitions.",
+      "When you are done, place the bar back in the rack."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:15:59.396Z",
+    "date_updated": "2024-02-27T13:15:03.463Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Decline_Barbell_Bench_Press/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Decline_Barbell_Bench_Press/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "6fc2f93e-13bb-42b2-a770-fe174238f3ed",
+  "fields": {
+    "name": "Overhead Cable Curl",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": "cable",
+    "category": "strength",
+    "instructions": [
+      "To begin, set a weight that is comfortable on each side of the pulley machine. Note: Make sure that the amount of weight selected is the same on each side.",
+      "Now adjust the height of the pulleys on each side and make sure that they are positioned at a height higher than that of your shoulders.",
+      "Stand in the middle of both sides and use an underhand grip (palms facing towards the ceiling) to grab each handle. Your arms should be fully extended and parallel to the floor with your feet positioned shoulder width apart from each other. Your body should be evenly aligned the handles. This is the starting position.",
+      "While exhaling, slowly squeeze the biceps on each side until your forearms and biceps touch.",
+      "While inhaling, move your forearms back to the starting position. Note: Your entire body is stationary during this exercise except for the forearms.",
+      "Repeat for the recommended amount of repetitions prescribed in your program."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:42:17.284Z",
+    "date_updated": "2024-02-27T13:14:13.798Z",
+    "img_url": [
+      "https://stayfit.today/public/exercises/937/1L.jpg",
+      "https://stayfit.today/public/exercises/937/2L.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "760fa8a3-050b-4678-abf6-a0c8c6081421",
+  "fields": {
+    "name": "Side Lying Hip Abduction",
+    "aliases": null,
+    "primaryMuscles": [
+      "gluteus medius",
+      "gluteus minimus"
+    ],
+    "secondaryMuscles": [
+      "gluteus medius"
+    ],
+    "force": "adduction",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lie on your side on a mat or flat surface with your legs extended and stacked on top of each other.",
+      "Ensure that your body forms a straight line from head to heels, and your head is supported by your bottom arm.",
+      "Engage your core muscles to stabilize your torso throughout the exercise.",
+      "Slowly lift your top leg upward towards the ceiling while keeping it straight and maintaining contact between your feet.",
+      "Focus on using the muscles on the side of the hip to lift the leg, avoiding excessive movement from the lower back.",
+      "Pause briefly at the top of the movement, then slowly lower the leg back down to the starting position.",
+      "Repeat for the desired number of repetitions, then switch sides and perform the exercise with the opposite leg."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:41:12.863Z",
+    "date_updated": "2024-02-27T13:12:34.634Z",
+    "img_url": [
+      "https://media.self.com/photos/59aef69531384d0e66dee3f1/4:3/w_2240%2Cc_limit/pic1.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "7c0200b0-1ae9-4e32-b3bc-bdd38065be15",
+  "fields": {
+    "name": "Dumb Bicep Curls",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Stand up straight with a dumbbell in each hand at arm's length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. This will be your starting position.",
+      "Now, keeping the upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps.",
+      "Then, inhale and slowly begin to lower the dumbbells back to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:32:17.862Z",
+    "date_updated": "2024-02-27T13:11:40.003Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Bicep_Curl/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Dumbbell_Bicep_Curl/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "8040917a-3234-48e2-b908-42a65e261467",
+  "fields": {
+    "name": "Incline Dumbbell Press",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Lie back on an incline bench with a dumbbell in each hand atop your thighs. The palms of your hands will be facing each other.",
+      "Then, using your thighs to help push the dumbbells up, lift the dumbbells one at a time so that you can hold them at shoulder width.",
+      "Once you have the dumbbells raised to shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. This will be your starting position.",
+      "Be sure to keep full control of the dumbbells at all times. Then breathe out and push the dumbbells up with your chest.",
+      "Lock your arms at the top, hold for a second, and then start slowly lowering the weight. Tip Ideally, lowering the weights should take about twice as long as raising them.",
+      "Repeat the movement for the prescribed amount of repetitions.",
+      "When you are done, place the dumbbells back on your thighs and then on the floor. This is the safest manner to release the dumbbells."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:12:43.930Z",
+    "date_updated": "2024-02-27T13:10:39.838Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Incline_Dumbbell_Press/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Incline_Dumbbell_Press/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "84a89e52-7ab8-47f6-8380-e97bac8225c7",
+  "fields": {
+    "name": "Ab Roller",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "roller",
+    "category": "strength",
+    "instructions": [
+      "Hold the Ab Roller with both hands and kneel on the floor.",
+      "Now place the ab roller on the floor in front of you so that you are on all your hands and knees (as in a kneeling push up position). This will be your starting position.",
+      "Slowly roll the ab roller straight forward, stretching your body into a straight position. Tip: Go down as far as you can without touching the floor with your body. Breathe in during this portion of the movement.",
+      "After a pause at the stretched position, start pulling yourself back to the starting position as you breathe out. Tip: Go slowly and keep your abs tight at all times."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T10:50:53.837Z",
+    "date_updated": "2024-02-27T12:30:35.604Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Ab_Roller/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Ab_Roller/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "85a7180a-a473-43be-b439-d115f75cbef5",
+  "fields": {
+    "name": "Seated Calf Raise",
+    "aliases": null,
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": null,
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "machine/barbell",
+    "category": "strength",
+    "instructions": [
+      "Sit on the machine and place your toes on the lower portion of the platform provided with the heels extending off. Choose the toe positioning of your choice (forward, in, or out) as per the beginning of this chapter.",
+      "Place your lower thighs under the lever pad, which will need to be adjusted according to the height of your thighs. Now place your hands on top of the lever pad in order to prevent it from slipping forward.",
+      "Lift the lever slightly by pushing your heels up and release the safety bar. This will be your starting position.",
+      "Slowly lower your heels by bending at the ankles until the calves are fully stretched. Inhale as you perform this movement.",
+      "Raise the heels by extending the ankles as high as possible as you contract the calves and breathe out. Hold the top contraction for a second.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:10:33.714Z",
+    "date_updated": "2024-02-27T12:29:45.275Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Seated_Calf_Raise/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Seated_Calf_Raise/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "8ad2afc2-ae61-47cc-b8db-2de459cf14fe",
+  "fields": {
+    "name": "Bottoms Up",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Begin by lying on your back on the ground. Your legs should be straight and your arms at your side. This will be your starting position.",
+      "To perform the movement, tuck the knees toward your chest by flexing the hips and knees. Following this, extend your legs directly above you so that they are perpendicular to the ground. Rotate and elevate your pelvis to raise your glutes from the floor.",
+      "After a brief pause, return to the starting position."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:50:34.742Z",
+    "date_updated": "2024-02-27T12:28:26.910Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bottoms_Up/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Bottoms_Up/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "8b74c59c-12ca-4cd8-bdaa-26a0540dd891",
+  "fields": {
+    "name": "Overhead Press Dumbbell",
+    "aliases": [
+      "Military Press"
+    ],
+    "primaryMuscles": [
+      "deltoids",
+      "triceps",
+      "upper chest"
+    ],
+    "secondaryMuscles": [
+      "trapezius",
+      "serratus anterior"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell/dumbbells",
+    "category": "strength",
+    "instructions": [
+      "Stand with your feet shoulder-width apart and grasp the barbell or dumbbells with an overhand grip.",
+      "Hold the weight at shoulder height, elbows bent and slightly in front of the body, palms facing forward.",
+      "Brace your core and keep your chest up and shoulders down.",
+      "Press the weight directly overhead by extending your arms, exhaling as you push.",
+      "Fully extend your arms without locking out your elbows at the top of the movement.",
+      "Lower the weight back to shoulder height in a controlled manner while inhaling.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:21:20.602Z",
+    "date_updated": "2024-02-27T12:27:34.545Z",
+    "img_url": [
+      "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2021/11/Overhead-Press.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "8c84a1d5-1ab3-47ae-8dab-ea161cbc066a",
+  "fields": {
+    "name": "Split Squats",
+    "aliases": null,
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "glutes",
+      "quadriceps"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "category": "stretching",
+    "instructions": [
+      "Being in a standing position. Jump into a split leg position, with one leg forward and one leg back, flexing the knees and lowering your hips slightly as you do so.",
+      "As you descend, immediately reverse direction, standing back up and jumping, reversing the position of your legs. Repeat 5-10 times on each leg."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:30:37.900Z",
+    "date_updated": "2024-02-27T12:26:52.712Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Side_Split_Squat/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Barbell_Side_Split_Squat/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "8d791269-ce79-4131-b3c3-334198e8d0b9",
+  "fields": {
+    "name": "Barbell Hip Thrust",
+    "aliases": null,
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "hamstrings"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "powerlifting",
+    "instructions": [
+      "Begin seated on the ground with a bench directly behind you. Have a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise.",
+      "Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it.",
+      "Begin the movement by driving through your feet, extending your hips vertically through the bar. Your weight should be supported by your shoulder blades and your feet. Extend as far as possible, then reverse the motion to return to the starting position."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:24:49.123Z",
+    "date_updated": "2024-02-27T12:25:41.414Z",
+    "img_url": [
+      "https://media1.popsugar-assets.com/files/thumbor/uiGIXH-6h8S6wUCG8ZZX6Dghxf0=/fit-in/1224x1224/filters:format_auto():upscale()/2018/03/29/835/n/1922729/tmp_kVfCvo_6879136d8067a956_Hip-Thrusts.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "9e6c057d-cc1a-42a2-ab25-150ac7ee5f46",
+  "fields": {
+    "name": "Preacher Curl",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "barbell",
+    "category": "strength",
+    "instructions": [
+      "To perform this movement you will need a preacher bench and an E-Z bar. Grab the E-Z curl bar at the close inner handle (either have someone hand you the bar which is preferable or grab the bar from the front bar rest provided by most preacher benches). The palm of your hands should be facing forward and they should be slightly tilted inwards due to the shape of the bar.",
+      "With the upper arms positioned against the preacher bench pad and the chest against it, hold the E-Z Curl Bar at shoulder length. This will be your starting position.",
+      "As you breathe in, slowly lower the bar until your upper arm is extended and the biceps is fully stretched.",
+      "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the bar is at shoulder height. Squeeze the biceps hard and hold this position for a second.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:46:16.271Z",
+    "date_updated": "2024-02-27T12:25:07.715Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Preacher_Curl/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Preacher_Curl/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "c128c2d8-c0c2-4b24-85af-8c16100debc4",
+  "fields": {
+    "name": "Air Bike",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position.",
+      "Bring knees up to where they are perpendicular to the floor, with your lower legs parallel to the floor. This will be your starting position.",
+      "Now simultaneously, slowly go through a cycle pedal motion kicking forward with the right leg and bringing in the knee of the left leg. Bring your right elbow close to your left knee by crunching to the side, as you breathe out.",
+      "Go back to the initial position as you breathe in.",
+      "Crunch to the opposite side as you cycle your legs and bring closer your left elbow to your right knee and exhale.",
+      "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:45:57.553Z",
+    "date_updated": "2024-02-27T12:24:23.483Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Air_Bike/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Air_Bike/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "c35f0004-8ff8-4ff9-b19c-c2b0dfbd10de",
+  "fields": {
+    "name": "Side Lateral Raise",
+    "aliases": null,
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": null,
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Pick a couple of dumbbells and stand with a straight torso and the dumbbells by your side at arms length with the palms of the hand facing you. This will be your starting position.",
+      "While maintaining the torso in a stationary position (no swinging), lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to go up until you arms are parallel to the floor. Exhale as you execute this movement and pause for a second at the top.",
+      "Lower the dumbbells back down slowly to the starting position as you inhale.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:16:00.129Z",
+    "date_updated": "2024-02-27T12:23:32.422Z",
+    "img_url": [
+      "https://experiencelife.lifetime.life/wp-content/uploads/2023/04/jun23-bid-lateral-raise.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "ce92161f-f32f-42cd-bb6d-f8d168eaa56b",
+  "fields": {
+    "name": "Pushup",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length.",
+      "Next, lower yourself downward until your chest almost touches the floor as you inhale.",
+      "Now breathe out and press your upper body back up to the starting position while squeezing your chest.",
+      "After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:01:05.913Z",
+    "date_updated": "2024-02-27T12:22:46.819Z",
+    "img_url": [
+      "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "cf2246cb-030a-4b14-afd2-248150e2f6c9",
+  "fields": {
+    "name": "Standing Calf Stretch",
+    "aliases": null,
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "force": "static",
+    "level": "null",
+    "mechanic": "null",
+    "equipment": "body only",
+    "category": "stretching",
+    "instructions": [
+      "Place your right heel on a step with your knee extended and lean forward to grab your right toe with your right hand. Your left knee should be slightly bent and your back should be straight.",
+      "Support your weight on your left leg and place your left hand on your left thigh.",
+      "Pull your right toes toward your knee until you feel a stretch in your calf."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:06:41.860Z",
+    "date_updated": "2024-02-27T12:22:03.854Z",
+    "img_url": [
+      "https://www.knee-pain-explained.com/images/standing-gastrocnemius-stretch.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "d7b5c58f-8b1a-43b7-b1be-f7dddc813a52",
+  "fields": {
+    "name": "Romanian Deadlift",
+    "aliases": [
+      "RDLS"
+    ],
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "lower back",
+      "glutes"
+    ],
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "strength",
+    "instructions": null,
+    "description": "[\r\n            \"Stand with your feet shoulder-width apart, knees slightly bent, and grip a barbell with an overhand grip (palms facing your body) at hip level.\",\r\n            \"Keeping your back straight, chest up, and core engaged, slowly lower the barbell by hinging at your hips, pushing your hips back while allowing your knees to bend slightly. Lower the barbell until you feel a stretch in your hamstrings.\",\r\n            \"Once you reach the bottom position, pause briefly, then drive through your heels to return to the starting position, keeping the barbell close to your body throughout the movement.\",\r\n            \"Repeat for the desired number of repetitions.\"\r\n        ]",
+    "tips": null,
+    "date_created": "2024-02-27T00:16:32.484Z",
+    "date_updated": "2024-02-27T12:21:33.551Z",
+    "img_url": [
+      "https://gunsmithfitness.com/cdn/shop/articles/does-the-romanian-deadlift-work-the-lower-back-456638.jpg?v=1703061551&width=1200"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "e3d92e65-b904-418d-be83-809d0905e052",
+  "fields": {
+    "name": "Alternate Heel Touchers",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "body only",
+    "category": "strength",
+    "instructions": [
+      "Lie on the floor with the knees bent and the feet on the floor around 18-24 inches apart. Your arms should be extended by your side. This will be your starting position.",
+      "Crunch over your torso forward and up about 3-4 inches to the right side and touch your right heel as you hold the contraction for a second. Exhale while performing this movement.",
+      "Now go back slowly to the starting position as you inhale.",
+      "Now crunch over your torso forward and up around 3-4 inches to the left side and touch your left heel as you hold the contraction for a second. Exhale while performing this movement and then go back to the starting position as you inhale. Now that both heels have been touched, that is considered 1 repetition.",
+      "Continue alternating sides in this manner until all prescribed repetitions are done."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T10:54:38.730Z",
+    "date_updated": "2024-02-27T12:20:59.222Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Alternate_Heel_Touchers/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Alternate_Heel_Touchers/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "e99ee825-a9ea-4e03-b58f-87b0a9eb7e8a",
+  "fields": {
+    "name": "Barbell Squat",
+    "aliases": null,
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "core"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "category": "strength",
+    "instructions": [
+      "Start by standing with your feet shoulder-width apart, toes slightly pointed out, and the barbell resting on your upper traps across your shoulders.",
+      "Engage your core, keep your chest up, and lower your body by pushing your hips back and bending your knees, as if sitting back into a chair.",
+      "Lower yourself until your thighs are parallel to the ground, or as low as you can comfortably go while maintaining good form.",
+      "Push through your heels to return to the starting position, keeping your back straight and chest up throughout the movement.",
+      "Exhale as you push the weight up, and inhale as you lower yourself back down.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T00:21:43.293Z",
+    "date_updated": "2024-02-27T12:20:10.011Z",
+    "img_url": [
+      "https://experiencelife.lifetime.life/wp-content/uploads/2021/08/f2-barbell-back-squat.jpg"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "eeb2b09e-e929-4765-87bd-c5f4a4eaeae9",
+  "fields": {
+    "name": "Advanced Kettlebell Windminll",
+    "aliases": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "glutes",
+      "hamstrings",
+      "shoulders"
+    ],
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": "kettlebells",
+    "category": "strength",
+    "instructions": [
+      "Clean and press a kettlebell overhead with one arm.",
+      "Keeping the kettlebell locked out at all times, push your butt out in the direction of the locked out kettlebell. Keep the non-working arm behind your back and turn your feet out at a forty-five degree angle from the arm with the kettlebell.",
+      "Lower yourself as far as possible.",
+      "Pause for a second and reverse the motion back to the starting position."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T10:52:49.132Z",
+    "date_updated": "2024-02-27T12:19:17.781Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Advanced_Kettlebell_Windmill/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Advanced_Kettlebell_Windmill/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "ef5a586a-d082-46ea-b50b-844c26522af8",
+  "fields": {
+    "name": "Cable Crossover",
+    "aliases": null,
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "cable",
+    "category": "strength",
+    "instructions": [
+      "To get yourself into the starting position, place the pulleys on a high position (above your head), select the resistance to be used and hold the pulleys in each hand.",
+      "Step forward in front of an imaginary straight line between both pulleys while pulling your arms together in front of you. Your torso should have a small forward bend from the waist. This will be your starting position.",
+      "With a slight bend on your elbows in order to prevent stress at the biceps tendon, extend your arms to the side (straight out at both sides) in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms and torso should remain stationary; the movement should only occur at the shoulder joint.",
+      "Return your arms back to the starting position as you breathe out. Make sure to use the same arc of motion used to lower the weights.",
+      "Hold for a second at the starting position and repeat the movement for the prescribed amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:20:25.425Z",
+    "date_updated": "2024-02-27T12:18:12.884Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Crunch/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Cable_Crunch/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "f01c39a3-6f23-4f22-bf9d-53907163a6a7",
+  "fields": {
+    "name": "Hammer Curls",
+    "aliases": null,
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": null,
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "category": "strength",
+    "instructions": [
+      "Stand up with your torso upright and a dumbbell on each hand being held at arms length. The elbows should be close to the torso.",
+      "The palms of the hands should be facing your torso. This will be your starting position.",
+      "Now, while holding your upper arm stationary, exhale and curl the weight forward while contracting the biceps. Continue to raise the weight until the biceps are fully contracted and the dumbbell is at shoulder level. Hold the contracted position for a brief moment as you squeeze the biceps. Tip: Focus on keeping the elbow stationary and only moving your forearm.",
+      "After the brief pause, inhale and slowly begin the lower the dumbbells back down to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-26T23:38:02.052Z",
+    "date_updated": "2024-02-27T12:17:13.051Z",
+    "img_url": [
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hammer_Curls/0.jpg?raw=true",
+      "https://github.com/yuhonas/free-exercise-db/blob/main/exercises/Hammer_Curls/1.jpg?raw=true"
+    ]
+  }
+},
+{
+  "model": "backend1.exercise",
+  "pk": "f068d1fc-30f3-4f8d-a6c0-74b29feb0b9e",
+  "fields": {
+    "name": "Standing Calf Raises",
+    "aliases": null,
+    "primaryMuscles": [
+      "calves"
+    ],
+    "secondaryMuscles": null,
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "machine",
+    "category": "strength",
+    "instructions": [
+      "Adjust the padded lever of the calf raise machine to fit your height.",
+      "Place your shoulders under the pads provided and position your toes facing forward (or using any of the two other positions described at the beginning of the chapter). The balls of your feet should be secured on top of the calf block with the heels extending off it. Push the lever up by extending your hips and knees until your torso is standing erect. The knees should be kept with a slight bend; never locked. Toes should be facing forward, outwards or inwards as described at the beginning of the chapter. This will be your starting position.",
+      "Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down.",
+      "Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "description": "",
+    "tips": null,
+    "date_created": "2024-02-27T11:01:30.376Z",
+    "date_updated": "2024-02-27T12:15:22.424Z",
+    "img_url": [
+      "https://s3assets.skimble.com/assets/1185099/image_iphone.jpg"
+    ]
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add exercise",
+    "content_type": [
+      "backend1",
+      "exercise"
+    ],
+    "codename": "add_exercise"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change exercise",
+    "content_type": [
+      "backend1",
+      "exercise"
+    ],
+    "codename": "change_exercise"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete exercise",
+    "content_type": [
+      "backend1",
+      "exercise"
+    ],
+    "codename": "delete_exercise"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view exercise",
+    "content_type": [
+      "backend1",
+      "exercise"
+    ],
+    "codename": "view_exercise"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add saved workout",
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "codename": "add_savedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change saved workout",
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "codename": "change_savedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete saved workout",
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "codename": "delete_savedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view saved workout",
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "codename": "view_savedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add planned workout",
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "codename": "add_plannedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change planned workout",
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "codename": "change_plannedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete planned workout",
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "codename": "delete_plannedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view planned workout",
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "codename": "view_plannedworkout"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "add_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "change_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "delete_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view association",
+    "content_type": [
+      "social_django",
+      "association"
+    ],
+    "codename": "view_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "add_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "change_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "delete_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view code",
+    "content_type": [
+      "social_django",
+      "code"
+    ],
+    "codename": "view_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "add_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "change_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "delete_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view nonce",
+    "content_type": [
+      "social_django",
+      "nonce"
+    ],
+    "codename": "view_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "add_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "change_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "delete_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user social auth",
+    "content_type": [
+      "social_django",
+      "usersocialauth"
+    ],
+    "codename": "view_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "add_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "change_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "delete_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view partial",
+    "content_type": [
+      "social_django",
+      "partial"
+    ],
+    "codename": "view_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user upload workedouts",
+    "content_type": [
+      "backend1",
+      "useruploadworkedouts"
+    ],
+    "codename": "add_useruploadworkedouts"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user upload workedouts",
+    "content_type": [
+      "backend1",
+      "useruploadworkedouts"
+    ],
+    "codename": "change_useruploadworkedouts"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user upload workedouts",
+    "content_type": [
+      "backend1",
+      "useruploadworkedouts"
+    ],
+    "codename": "delete_useruploadworkedouts"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user upload workedouts",
+    "content_type": [
+      "backend1",
+      "useruploadworkedouts"
+    ],
+    "codename": "view_useruploadworkedouts"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add now playing track",
+    "content_type": [
+      "backend1",
+      "nowplayingtrack"
+    ],
+    "codename": "add_nowplayingtrack"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change now playing track",
+    "content_type": [
+      "backend1",
+      "nowplayingtrack"
+    ],
+    "codename": "change_nowplayingtrack"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete now playing track",
+    "content_type": [
+      "backend1",
+      "nowplayingtrack"
+    ],
+    "codename": "delete_nowplayingtrack"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view now playing track",
+    "content_type": [
+      "backend1",
+      "nowplayingtrack"
+    ],
+    "codename": "view_nowplayingtrack"
+  }
+},
+{
+  "model": "backend1.user",
+  "fields": {
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-01-08T02:47:06.713Z",
+    "email": "cw72@njit.edu",
+    "password": "pbkdf2_sha256$870000$ch7nK8bHXnkgRvnexbJ9Nt$otPY4RY5XhQYSqSsNvLkeQ5gYRTMMCLk+ZSQym5fOog=",
+    "username": null,
+    "otp": null,
+    "is_social_authenticated": false,
+    "created_at": "2025-01-08T02:47:06.867Z",
+    "image_url": null,
+    "height": null,
+    "weight": null,
+    "phone_number": null,
+    "is_trainer": false,
+    "last_active": null,
+    "streak": 0,
+    "goal_weight": null,
+    "is_private": false,
+    "is_searchable": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "backend1.user",
+  "fields": {
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-17T05:17:37.782Z",
+    "email": "Sandycheeks@gmail.com",
+    "password": "pbkdf2_sha256$600000$3pTQN2QMUstPgSdUCk1eFj$cEf3Eua8zCH31Cf1mkfKJJo6TsNvrBM5QhOLa3XvPpU=",
+    "username": null,
+    "otp": null,
+    "is_social_authenticated": false,
+    "created_at": null,
+    "image_url": null,
+    "height": null,
+    "weight": null,
+    "phone_number": null,
+    "is_trainer": false,
+    "last_active": null,
+    "streak": 0,
+    "goal_weight": null,
+    "is_private": false,
+    "is_searchable": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "backend1.user",
+  "fields": {
+    "last_login": "2025-02-04T00:23:08.715Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-04T23:28:05Z",
+    "email": "cwwantong@gmail.com",
+    "password": "pbkdf2_sha256$870000$5m7jaV7uLyXYWjsGSAs2Uo$79HbK7F8y6rz4OHonY3m1ptvhss0LooK8GzrK2JsCrA=",
+    "username": "Sandycheeks2",
+    "otp": null,
+    "is_social_authenticated": false,
+    "created_at": null,
+    "image_url": "https://cdn2.f-cdn.com/files/download/42322552/f58f50.jpg",
+    "height": "6.1700",
+    "weight": "265.000",
+    "phone_number": null,
+    "is_trainer": false,
+    "last_active": null,
+    "streak": 0,
+    "goal_weight": "243.200",
+    "is_private": false,
+    "is_searchable": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "backend1.user",
+  "fields": {
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-01-08T03:04:36.127Z",
+    "email": "clwantong@gmail.com",
+    "password": "pbkdf2_sha256$870000$JIhpMl6kPqG9tK4i0O7K8r$KBIKaoxZKL9wQ00K1mYw8IxHz2xpy00DwICmnfuQD4g=",
+    "username": null,
+    "otp": null,
+    "is_social_authenticated": false,
+    "created_at": "2025-01-08T03:04:36.278Z",
+    "image_url": null,
+    "height": null,
+    "weight": null,
+    "phone_number": null,
+    "is_trainer": false,
+    "last_active": null,
+    "streak": 0,
+    "goal_weight": null,
+    "is_private": false,
+    "is_searchable": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "backend1.user",
+  "fields": {
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-01-07T06:49:43Z",
+    "email": "j8hd7q65pp@privaterelay.appleid.com",
+    "password": "2UlcJGPw",
+    "username": "sandycheeks4",
+    "otp": null,
+    "is_social_authenticated": true,
+    "created_at": "2025-01-07T06:49:43.400Z",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2015_42/1261876/damontweedy_alt4_stocksphotography.jpg",
+    "height": null,
+    "weight": null,
+    "phone_number": null,
+    "is_trainer": false,
+    "last_active": null,
+    "streak": 0,
+    "goal_weight": null,
+    "is_private": false,
+    "is_searchable": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "backend1.useruploadworkedouts",
+  "pk": "e973bf47-653d-42f1-8c07-8e6b27ae8f21",
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "name": "knees",
+    "aliases": null,
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": null,
+    "force": null,
+    "level": "Low",
+    "mechanic": "Pull",
+    "equipment": "Free body weight",
+    "category": "Stretching",
+    "instructions": null,
+    "description": null,
+    "tips": null,
+    "date_created": "2025-01-31T22:25:32.596Z",
+    "date_updated": "2025-01-31T22:25:32.597Z",
+    "img_url": [
+      "https://exerciseplus.s3.us-east-2.amazonaws.com/exercises-images/67D61DE3-FECF-40CC-A741-1CD01F388634.jpg"
+    ],
+    "is_public": false,
+    "trainer_verified": false
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "f01c39a3-6f23-4f22-bf9d-53907163a6a7",
+    "date_saved": "2025-01-21T01:51:24.003Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "6fc2f93e-13bb-42b2-a770-fe174238f3ed",
+    "date_saved": "2025-01-21T01:52:20.357Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "50103c12-7c8f-4ffe-b307-2cf1dae4aa67",
+    "date_saved": "2025-01-21T01:54:29.671Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "6e5c5ea1-4228-4b35-ac53-bcbad792c490",
+    "date_saved": "2025-01-21T01:56:04.577Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "e99ee825-a9ea-4e03-b58f-87b0a9eb7e8a",
+    "date_saved": "2025-01-21T02:06:08.351Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "64aa5b22-65a3-4dac-a837-d313cd79e3a6",
+    "date_saved": "2025-01-21T02:06:24.345Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "216b26f2-c86e-41f1-9f0a-20e40cd7029a",
+    "date_saved": "2025-01-23T01:37:07.307Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "9e6c057d-cc1a-42a2-ab25-150ac7ee5f46",
+    "date_saved": "2025-01-23T01:45:20.303Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "191cfc24-ac60-4426-8e15-ca4af8674736",
+    "date_saved": "2025-01-23T02:00:07.593Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "ef5a586a-d082-46ea-b50b-844c26522af8",
+    "date_saved": "2025-01-23T02:03:27.749Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "84a89e52-7ab8-47f6-8380-e97bac8225c7",
+    "date_saved": "2025-01-23T02:04:00.752Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "7c0200b0-1ae9-4e32-b3bc-bdd38065be15",
+    "date_saved": "2025-01-23T02:04:42.490Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "1cdfcdfa-925e-4ad0-b1b3-b3e0d68a0129",
+    "date_saved": "2025-01-23T02:08:23.109Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "2423a42d-febf-4876-a260-18bd694f03a8",
+    "date_saved": "2025-01-26T02:29:50.209Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "37677c0c-6036-4ea1-8e55-71bb43dcd239",
+    "date_saved": "2025-02-04T15:11:32.818Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.savedworkout",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "exercise": "8040917a-3234-48e2-b908-42a65e261467",
+    "date_saved": "2025-02-10T03:06:01.527Z",
+    "reps": null
+  }
+},
+{
+  "model": "backend1.plannedworkout",
+  "pk": 49,
+  "fields": {
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "saved_workout": 21,
+    "day_of_the_week": "Wednesday",
+    "reps": "5x5"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-03-04T23:42:08.588Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "6efdf695-e07e-4992-b14a-6d4713ed0fd1",
+    "object_repr": "cdubbx",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-03-05T00:50:31.727Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "c6847251-63fc-4df4-82c2-3120208b2936",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-03-05T00:54:11.211Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "06df925f-cbb9-427b-9723-5ca92599918b",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-03-05T00:58:42.848Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "8a0c40e2-0fae-4f8e-b8c8-e3dc422a8add",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-03-05T01:01:39.357Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "2aa69547-83ab-438e-85d8-bfce8a2e9e11",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-03-05T01:02:47.345Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "7c2b77d7-da8b-45a0-ba9a-70a78d8bf5c6",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-03-05T01:04:08.279Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "e51f9f23-f764-42cb-81b8-22cce7a9bf20",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-03-05T01:06:44.415Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "0faec55b-c84d-4bcf-bcf5-0ce96869a722",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-03-05T01:08:21.047Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "d6462087-2abb-4f09-92d6-bcc431297740",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-03-05T01:10:48.067Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "c5d82116-e74d-4c05-8f20-138f2b8e5b5a",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-03-05T01:12:39.354Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "20d0cdf3-ba94-4ee9-aa39-b75a82af6d48",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-03-05T01:14:03.275Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "6ca397d6-94f7-4242-89d4-b7191816fdf8",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-03-05T01:16:25.813Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "a41f9eea-2045-4356-be5a-8625ea69539f",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-03-05T01:17:43.537Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "d50082ba-7b32-4be7-8d62-add4ce34acc8",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-03-05T01:19:00.698Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "c4e9efb7-2e4b-4138-ae73-c0be8abc9484",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-03-05T01:20:35.711Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "cee5c38b-f176-480b-8842-5b8dbcb83416",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-03-05T01:21:53.203Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "e75a65fb-510c-40e8-8c4e-27143b8ac90a",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-03-05T20:23:37.167Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "699e1eeb-f40a-4b68-a239-00eefd034c9e",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-05-17T04:37:54.988Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "e560ef98-d338-48a1-b5b0-cc7b56aa0004",
+    "object_repr": "Sandycheeks@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-05-17T05:03:42.496Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "40f00f12-4424-4fa5-a299-4bffa7dcc807",
+    "object_repr": "Sandycheeks@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-05-17T05:12:11.779Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "83f17503-0a02-41dc-8fde-18e4f6ee8eac",
+    "object_repr": "Sandycheeks@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-05-17T05:14:26.172Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "afad8bdf-c2c5-4383-ae0a-5cbdeb0b03c8",
+    "object_repr": "Sandycheeks@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-05-17T05:17:22.216Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "cd06f360-b28e-4ec1-94c2-bdc5e3910232",
+    "object_repr": "Sandycheeks@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-08-28T03:38:25.267Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "928f0b25-77f2-4e6c-bd16-31cb8aa6a6b5",
+    "object_repr": "Clwantong@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-08-28T03:38:25.269Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "80f8e514-671f-443c-8205-cbcb1f735de0",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-01-08T02:46:33.201Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "ab9520b6-258b-4956-b43a-620c43753ce1",
+    "object_repr": "cw72@njit.edu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-01-08T02:58:51.480Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "4eeb7411-dcf8-49f1-9f16-1a3e361b1746",
+    "object_repr": "clwantong@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-01-21T01:41:45.162Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "14",
+    "object_repr": "cwwantong@gmail.com - Romanian Deadlift",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-01-21T01:41:45.162Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "13",
+    "object_repr": "cwwantong@gmail.com - Single Leg Deadlift",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-01-21T01:41:45.162Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "12",
+    "object_repr": "cwwantong@gmail.com - Preacher Curl",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-01-21T01:41:45.162Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "11",
+    "object_repr": "cwwantong@gmail.com - Dumb Bicep Curls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "17",
+    "object_repr": "cwwantong@gmail.com - Cable Crossover",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "16",
+    "object_repr": "cwwantong@gmail.com - Preacher Curl",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "15",
+    "object_repr": "cwwantong@gmail.com - Romanian Deadlift",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "10",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "9",
+    "object_repr": "Sandycheeks@gmail.com - Barbell Squat",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "8",
+    "object_repr": "Sandycheeks@gmail.com - Glute Bridge",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "7",
+    "object_repr": "Sandycheeks@gmail.com - Hammer Curls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "6",
+    "object_repr": "Sandycheeks@gmail.com - Single Leg Deadlift",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "5",
+    "object_repr": "Sandycheeks@gmail.com - Cable Crunch",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "4",
+    "object_repr": "Sandycheeks@gmail.com - Overhead Cable Curl",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-01-21T01:45:14.180Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "3",
+    "object_repr": "Sandycheeks@gmail.com - Barbell Glute Bridge",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-01-21T01:51:14.766Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "2",
+    "object_repr": "Sandycheeks@gmail.com - Incline Dumbbell Press",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-01-21T01:51:14.766Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "1",
+    "object_repr": "Sandycheeks@gmail.com - Dumb Bicep Curls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-01-21T01:51:20.370Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "19",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-01-21T01:51:20.370Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "savedworkout"
+    ],
+    "object_id": "18",
+    "object_repr": "cwwantong@gmail.com - Cable Crossover",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-01-22T17:44:05.693Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "6efdf695-e07e-4992-b14a-6d4713ed0fd1",
+    "object_repr": "cwwantong@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Last login\", \"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-01-22T17:52:58.054Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "6efdf695-e07e-4992-b14a-6d4713ed0fd1",
+    "object_repr": "cwwantong@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-01-22T17:53:45.606Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "6efdf695-e07e-4992-b14a-6d4713ed0fd1",
+    "object_repr": "cwwantong@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-01-27T23:55:41.315Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "d02a09c5-af50-4d3f-ad48-2a456e0189b2",
+    "object_repr": "j8hd7q65pp@privaterelay.appleid.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-01-27T23:59:08.184Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "d02a09c5-af50-4d3f-ad48-2a456e0189b2",
+    "object_repr": "j8hd7q65pp@privaterelay.appleid.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-02-01T10:51:13.291Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "user"
+    ],
+    "object_id": "d02a09c5-af50-4d3f-ad48-2a456e0189b2",
+    "object_repr": "j8hd7q65pp@privaterelay.appleid.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "24",
+    "object_repr": "cwwantong@gmail.com - Preacher Curl on Tuesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "23",
+    "object_repr": "cwwantong@gmail.com - Barbell Squat on Thursday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "22",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "21",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Sunday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "20",
+    "object_repr": "cwwantong@gmail.com - Overhead Cable Curl on Sunday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "19",
+    "object_repr": "cwwantong@gmail.com - Single Leg Deadlift on Friday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "18",
+    "object_repr": "cwwantong@gmail.com - Decline Barbell Bench Press on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "17",
+    "object_repr": "cwwantong@gmail.com - Concentration Curls on Saturday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "16",
+    "object_repr": "cwwantong@gmail.com - Glute Bridge on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "15",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Thursday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "14",
+    "object_repr": "cwwantong@gmail.com - Decline Barbell Bench Press on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "13",
+    "object_repr": "cwwantong@gmail.com - Overhead Cable Curl on Friday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-02-04T23:12:49.652Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "12",
+    "object_repr": "cwwantong@gmail.com - Dumbbell Bench Press on Tuesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "48",
+    "object_repr": "cwwantong@gmail.com - Single Leg Deadlift on Friday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "47",
+    "object_repr": "cwwantong@gmail.com - Single Leg Deadlift on Friday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "46",
+    "object_repr": "cwwantong@gmail.com - Overhead Cable Curl on Friday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "45",
+    "object_repr": "cwwantong@gmail.com - Ab Roller on Thursday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "44",
+    "object_repr": "cwwantong@gmail.com - Barbell Squat on Thursday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "43",
+    "object_repr": "cwwantong@gmail.com - Overhead Cable Curl on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "42",
+    "object_repr": "cwwantong@gmail.com - Dumbbell Bench Press on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "41",
+    "object_repr": "cwwantong@gmail.com - Cable Crunch on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "40",
+    "object_repr": "cwwantong@gmail.com - Ab Roller on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "39",
+    "object_repr": "cwwantong@gmail.com - Concentration Curls on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "38",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "37",
+    "object_repr": "cwwantong@gmail.com - Incline Dumbbell Curl on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "36",
+    "object_repr": "cwwantong@gmail.com - Incline Dumbbell Curl on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "35",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "34",
+    "object_repr": "cwwantong@gmail.com - Barbell Squat on Wednesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "33",
+    "object_repr": "cwwantong@gmail.com - Dumb Bicep Curls on Tuesday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "32",
+    "object_repr": "cwwantong@gmail.com - Glute Bridge on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "31",
+    "object_repr": "cwwantong@gmail.com - Ab Roller on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "30",
+    "object_repr": "cwwantong@gmail.com - Single Leg Deadlift on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "29",
+    "object_repr": "cwwantong@gmail.com - Incline Dumbbell Curl on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "28",
+    "object_repr": "cwwantong@gmail.com - Preacher Curl on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.423Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "27",
+    "object_repr": "cwwantong@gmail.com - Incline Dumbbell Curl on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.424Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "26",
+    "object_repr": "cwwantong@gmail.com - Overhead Cable Curl on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-02-04T23:57:11.424Z",
+    "user": [
+      "cwwantong@gmail.com"
+    ],
+    "content_type": [
+      "backend1",
+      "plannedworkout"
+    ],
+    "object_id": "25",
+    "object_repr": "cwwantong@gmail.com - Hammer Curls on Monday",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
