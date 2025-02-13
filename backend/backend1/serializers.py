@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 
-from .models import Exercise, User, SavedWorkout, PlannedWorkout,UserUploadWorkedouts, NowPlayingTrack
+from backend.backend1.models import Exercise, User, SavedWorkout, PlannedWorkout,UserUploadWorkedouts, NowPlayingTrack
 
 class ExerciseSerializer(serializers.ModelSerializer):
     class Meta: 

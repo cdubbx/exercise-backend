@@ -4,7 +4,7 @@ import requests
 from datetime import timedelta
 from django.conf import settings
 from django.contrib.auth.backends import BaseBackend
-from .models import User
+from backend.backend1.models import User
 import logging
 
 logger = logging.getLogger(__name__)

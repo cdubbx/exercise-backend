@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Exercise, User,SavedWorkout, PlannedWorkout, NowPlayingTrack, UserUploadWorkedouts
+from backend.backend1.models import Exercise, User,SavedWorkout, PlannedWorkout, NowPlayingTrack, UserUploadWorkedouts
 
 admin.site.register(Exercise)
 admin.site.register(User)

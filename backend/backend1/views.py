@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets,status
-from .models import Exercise, User, SavedWorkout,PlannedWorkout, NowPlayingTrack, UserUploadWorkedouts
-from .serializers import ExerciseSerializer, UserSerializer, SavedWorkoutSerializer,PlannedWorkoutSerializer, UserUploadWorkoutsSerializer, NowPlayingTrackSerializer
+from backend.backend1.models import Exercise, User, SavedWorkout,PlannedWorkout, NowPlayingTrack, UserUploadWorkedouts
+from backend.backend1.serializers import ExerciseSerializer, UserSerializer, SavedWorkoutSerializer,PlannedWorkoutSerializer, UserUploadWorkoutsSerializer, NowPlayingTrackSerializer
 from rest_framework.exceptions import AuthenticationFailed
 from rest_framework.authentication import get_authorization_header, TokenAuthentication
 from rest_framework.permissions import AllowAny, IsAuthenticated
@@ -13,13 +13,13 @@ from django.core.cache import cache
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.response import Response
 from uuid import uuid4
-from .utils.utils import send_otp, generate_otp, send_track_update
+from backend.backend1.utils.utils import send_otp, generate_otp, send_track_update
 from django.shortcuts import get_object_or_404
 from django.utils.timezone import now
 from django.core.mail import send_mail, EmailMessage
 from django.conf import settings
 import requests
-from .backends import AppleAuthenticationBackend
+from backend.backend1.backends import AppleAuthenticationBackend
 import logging
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from channels.layers import get_channel_layer
