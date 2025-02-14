@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from backend.backend1.views import ExerciseListView, LoginAPIView, RegisterAPIView, UserView,LogoutView, SaveWorkOutView,  UserPlannedWorkoutsView, UserSavedWorkoutsView, SigninWIthApple, VerifyOTPAPIView, UploadWorkOutView, GetBodyPartWorkOutView, SpotifyRefreshTokenView, SpotifySwapTokenView
-from backend.backend1.views import ResetPasswordAPIView, RequestPasswordResetAPIView, UserListView, UserDetailView, NowPlayingForUserView, UpdateNowPlayingView, EditUserView, GetUserUploadedWorkOutView
+from backend1.views import ExerciseListView, LoginAPIView, RegisterAPIView, UserView,LogoutView, SaveWorkOutView,  UserPlannedWorkoutsView, UserSavedWorkoutsView, SigninWIthApple, VerifyOTPAPIView, UploadWorkOutView, GetBodyPartWorkOutView, SpotifyRefreshTokenView, SpotifySwapTokenView
+from backend1.views import ResetPasswordAPIView, RequestPasswordResetAPIView, UserListView, UserDetailView, NowPlayingForUserView, UpdateNowPlayingView, EditUserView, GetUserUploadedWorkOutView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 
 # Using `router.register(r'exercises', ExerciseViewSet)` registers the `ExerciseViewSet` with the router,
