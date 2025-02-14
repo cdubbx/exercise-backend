@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-from backend1.managers import CustomerUserManager
+from .managers import CustomerUserManager
 from django.conf import settings
 import random 
 from datetime import date, timedelta
