@@ -33,7 +33,7 @@ import datetime
 
 
 class ExerciseCursorPagination(CursorPagination):
-    page_size = 10  # Adjust as needed
+    page_size = 20  # Adjust as needed
     ordering = 'date_created'  # Ensure ordering by a unique, indexed field (e.g., timestamp)
 
 class ExerciseListView(ListAPIView):
