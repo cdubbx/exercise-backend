@@ -541,11 +541,15 @@ class SpotifyRefreshTokenView(APIView):
                 'client_secret': settings.SPOTIFY_CLIENT_SECRET,
             }
             response = requests.post('https://accounts.spotify.com/api/token', data=payload)
-            Response(response.json(), status=status.HTTP_200_OK)
+            try:
+                response_data = response.json()
+            except ValueError:  # If response is not JSON
+                return Response({"error": "Invalid JSON response from Spotify"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            if response.status_code != 200:
+                return Response(response_data, status=response.status_code)
+            return Response(response_data, status=status.HTTP_200_OK)
         except Exception as e:
-            logger.debug(f'An error has occurred {e}')
-            print(f'An error has occurred {e}')
-            Response({"error": f"An error has occurred {e}"})
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
 class UpdateNowPlayingView(APIView):
     permission_classes = [IsAuthenticated]
