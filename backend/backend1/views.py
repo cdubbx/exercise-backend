@@ -19,7 +19,7 @@ from django.utils.timezone import now
 from django.core.mail import send_mail, EmailMessage
 from django.conf import settings
 import requests
-from backend.backend1.backends import AppleAuthenticationBackend
+from .backends import AppleAuthenticationBackend
 import logging
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from channels.layers import get_channel_layer

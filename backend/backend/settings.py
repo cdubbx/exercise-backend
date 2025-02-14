@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'backend.backend1',
+    'backend1',
     'corsheaders',
     'backend1'
     'rest_framework',
