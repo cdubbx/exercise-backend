@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'backend1',
     'corsheaders',
-    'backend1'
+    'backend1',
     'rest_framework',
     'rest_framework_simplejwt',
     'social_django',
