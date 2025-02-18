@@ -328,29 +328,32 @@ class GetBodyPartWorkOutView(APIView):
 
 class SaveWorkOutView(APIView):
     permission_classes = [IsAuthenticated]
-
     def post(self, request):
         user = request.user
-        logger.debug(f'Authenticated user: {user}')  # Debugging line
+        try:
+            logger.debug(f'Authenticated user: {user}')  # Debugging line
 
-        if not user:
-            return Response({"error": "User not authenticated"}, status=status.HTTP_401_UNAUTHORIZED)
+            if not user:
+                return Response({"error": "User not authenticated"}, status=status.HTTP_401_UNAUTHORIZED)
 
-        workout_data = request.data.get('workout', {})
-        exercise_id = workout_data.get('id')
-        
-        if not exercise_id:
-            return Response({"error": "Exercise ID is required"}, status=status.HTTP_400_BAD_REQUEST)
-
-        saved_workout_data = {'exercise_id': exercise_id}
-
-        serializer = SavedWorkoutSerializer(data=saved_workout_data)
-        if serializer.is_valid():
-            workout = serializer.save(user=user)
-            return Response({"workout": workout.id}, status=status.HTTP_201_CREATED)
-        else:
-            logger.debug(f'Serializer errors: {serializer.errors}')  # Debugging line
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+            workout_data = request.data.get('workout', {})
+            exercise_id = workout_data.get('id')
+            
+            if not exercise_id:
+                return Response({"error": "Exercise ID is required"}, status=status.HTTP_400_BAD_REQUEST)
+            if SavedWorkout.objects.filter(user=user, exercise_id=exercise_id).exists():
+                return Response({"error": "Workout already saved."}, status=status.HTTP_400_BAD_REQUEST)
+            saved_workout_data = {'exercise_id': exercise_id}
+            serializer = SavedWorkoutSerializer(data=saved_workout_data)
+            if serializer.is_valid():
+                workout = serializer.save(user=user)
+                return Response({"workout": workout.id}, status=status.HTTP_201_CREATED)
+            else:
+                logger.debug(f'Serializer errors: {serializer.errors}')  # Debugging line
+                return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            logger.error(f'An error occurred: {e}')
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class UserPlannedWorkoutsView(APIView):
     permission_classes = [IsAuthenticated]
@@ -583,3 +586,55 @@ class NowPlayingForUserView(APIView):
             return Response({"error":"User doesn't exist"}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             return Response({"error": f"Internal server error {e}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+class DeletePlannedWorkoutView(APIView):
+    permission_classes = [IsAuthenticated]
+    def delete(self, request, planned_workout_id):
+        planned_workout = get_object_or_404(PlannedWorkout, id=planned_workout_id, user=request.user)
+        planned_workout.delete()
+        return Response({"message": "Planned workout deleted successfully."}, status=status.HTTP_200_OK)
+
+class DeleteSavedWorkoutView(APIView):
+    permission_classes = [IsAuthenticated]
+    def delete(self, request, saved_workout_id):
+        saved_workout = get_object_or_404(SavedWorkout, id=saved_workout_id, user=request.user)
+        saved_workout.delete()
+        return Response({"message": "Saved workout deleted successfully."}, status=status.HTTP_200_OK)    
+
+class DeleteUserUploadedWorkoutView(APIView):
+    permission_classes = [IsAuthenticated]
+    def delete(self, request, workout_id):
+        workout = get_object_or_404(UserUploadWorkedouts, id=workout_id, user=request.user)
+        workout.delete()
+        return Response({"message": "User uploaded workout deleted successfully."}, status=status.HTTP_200_OK)
+
+class DeleteUserAccountView(APIView):
+    permission_classes = [IsAuthenticated]
+    def delete(self, request):
+        user = request.user
+        user.delete()
+        return Response({"message": "User deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
+
+class ReportIssueView(APIView):
+    permission_classes = [AllowAny]
+    def post(self, request):
+        report_obj = request.data.get('reportObj')
+        report_type = report_obj.get("report_type", "issue")  # e.g., "user" or "exercise"
+        reported_id = report_obj.get("reported_id",)
+        report_text = report_obj.get("report_text")
+        if not report_text:
+            return Response({"error": "Report text is required."}, status=status.HTTP_400_BAD_REQUEST)
+        subject = f"Report: {report_type.capitalize()} Issue"
+        if reported_id:
+            subject += f" (ID: {reported_id})"
+            to_email = "cwwantong@gmail.com"
+            try:
+                send_mail(
+                        subject,
+                        report_text,
+                        settings.EMAIL_HOST_USER,
+                        [to_email],
+                        fail_silently=False,
+                )
+                return Response({"message": "Report sent successfully."}, status=status.HTTP_200_OK)
+            except Exception as e:
+                    return Response({"error": "Failed to send report", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

@@ -24,7 +24,7 @@ class UserSerializer(serializers.ModelSerializer):
         return obj.date_joined.date().strftime("%Y-%m-%d")
     class Meta:
         model = User
-        fields = ['id', 'email', 'password', 'username', 'streak', 'image_url', 'date_joined', 'streak', 'weight', 'height', 'goal_weight', 'phone_number']
+        fields = ['id', 'email', 'password', 'username', 'streak', 'image_url', 'date_joined', 'streak', 'weight', 'height', 'goal_weight', 'phone_number', 'is_searchable', 'is_private']
 
         extra_kwargs = {
             'password': {'write_only': True},
