@@ -701,10 +701,11 @@ class GPTExerciseRecommendationView(APIView):
             )
 
             gpt_answer = chat_response.choices[0].message.content
+            serialized = ExerciseSerializer(similar_exercises, many=True).data
 
             return Response({
                 "gpt_response": gpt_answer,
-                "exercises": exercise_data,
+                "exercises": serialized,
             })
 
         except Exception as e:
