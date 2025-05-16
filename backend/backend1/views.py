@@ -26,6 +26,7 @@ from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 from openai import OpenAI
 from pgvector.django import CosineDistance
+from django.db.models import Q
 
 logger = logging.getLogger(__name__)
 
@@ -45,21 +46,31 @@ class ExerciseListView(ListAPIView):
     pagination_class = ExerciseCursorPagination  # Use CursorPagination
 
     def get_queryset(self):
-        cursor = self.request.query_params.get("cursor", "first_page")
-        primaryMuscle = self.request.query_params.get("primaryMuscles")  # Get muscle filter
+            cursor = self.request.query_params.get("cursor", "first_page")
+            primaryMuscle = self.request.query_params.get("primaryMuscles")
+            search = self.request.query_params.get("search")  # ✅ Add this
 
-        # Generate a cache key based on cursor and filter parameters
-        cache_key = f"exercise_cursor_{cursor}_muscle_{primaryMuscle}"
-        cached_data = cache.get(cache_key)
+            # Generate a cache key that includes search
+            cache_key = f"exercise_cursor_{cursor}_muscle_{primaryMuscle}_search_{search}"
+            cached_data = cache.get(cache_key)
+            if cached_data is not None:
+                return cached_data
 
-        if cached_data is not None:
-            return cached_data  # Return cached data
-        queryset = Exercise.objects.all()
-        if primaryMuscle:
-            queryset = queryset.filter(primaryMuscles__icontains=primaryMuscle)  # Ensure case-insensitive match
-        queryset = queryset.order_by('-date_created')  # Order for CursorPagination
-        cache.set(cache_key, queryset, timeout=60 * 15)
-        return queryset
+            queryset = Exercise.objects.all()
+
+            if primaryMuscle:
+                queryset = queryset.filter(primaryMuscles__icontains=primaryMuscle)
+
+            if search:
+                queryset = queryset.filter(
+                    Q(name__icontains=search) |
+                    Q(description__icontains=search) |
+                    Q(category__icontains=search)
+                )
+
+            queryset = queryset.order_by('-date_created')
+            cache.set(cache_key, queryset, timeout=60 * 15)
+            return queryset
 # Create your views here.
 
 class RegisterAPIView(APIView):
