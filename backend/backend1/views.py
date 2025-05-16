@@ -23,7 +23,9 @@ from .backends import AppleAuthenticationBackend
 import logging
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from channels.layers import get_channel_layer
-from asgiref.sync import async_to_sync 
+from asgiref.sync import async_to_sync
+from openai import OpenAI
+from pgvector.django import CosineDistance
 
 logger = logging.getLogger(__name__)
 
@@ -637,4 +639,73 @@ class ReportIssueView(APIView):
                 )
                 return Response({"message": "Report sent successfully."}, status=status.HTTP_200_OK)
             except Exception as e:
-                    return Response({"error": "Failed to send report", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                    return Response({"error": "Failed to send report", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)    
+
+
+class GPTExerciseRecommendationView(APIView):
+    """
+    A class-based API view that receives a user query, performs vector similarity search,
+    and returns both the raw top exercises and a GPT-generated recommendation response.
+    """
+
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        user_input = request.data.get("query")
+        client = OpenAI(api_key=settings.OPENAI_API_KEY)
+
+
+        if not user_input:
+            return Response({"error": "Missing query input."}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            # Step 1: Embed the user query
+            embedding_response = client.embeddings.create(
+                input=user_input,
+                model="text-embedding-ada-002"
+            )
+            query_embedding = embedding_response.data[0].embedding
+
+            # Step 2: Perform vector similarity search using pgvector
+            similar_exercises = Exercise.objects.order_by(
+                CosineDistance("embedding", query_embedding)
+            )[:5]
+
+            # Step 3: Collect data and format GPT context
+            exercise_data = []
+            context_lines = []
+
+            for e in similar_exercises:
+                exercise_data.append(e)
+
+                context_lines.append(
+                    f"Name: {e.name}\nDescription: {e.description}\nCategory: {e.category}\nMuscles: {', '.join(e.primaryMuscles or [])}\nEquipment: {e.equipment}"
+                )
+
+            context_text = "\n\n".join(context_lines)
+
+            # Step 4: Ask GPT using context + original question
+            chat_response = client.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "You are a personal fitness trainer."},
+                    {"role": "user", "content": f"""Here are some exercises from the database:
+
+                    {context_text}
+
+                    Now answer the following question based on these exercises: "{user_input}"
+
+                    Please explain why these exercises are a good match, and provide a recommendation.
+                    """}
+                ]
+            )
+
+            gpt_answer = chat_response.choices[0].message.content
+
+            return Response({
+                "gpt_response": gpt_answer,
+                "exercises": exercise_data,
+            })
+
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

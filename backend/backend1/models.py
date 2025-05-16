@@ -8,6 +8,8 @@ import string
 
 from uuid import uuid4
 import uuid
+from pgvector.django import VectorField
+
 # Create your models here.
 class User(AbstractUser):
     email = models.CharField(max_length = 255, unique = True)
@@ -69,7 +71,8 @@ class Exercise(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
     img_url = models.JSONField(null=True, blank=True)
-
+    embedding = VectorField(dimensions=1536, null=True, blank=True)
+    
     def __str__(self):
         return self.name
     

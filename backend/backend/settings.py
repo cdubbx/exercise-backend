@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'social_django',
     'channels',
+    'pgvector.django'
 ]
 
 MIDDLEWARE = [
@@ -148,6 +149,7 @@ SOCIAL_AUTH_APPLE_TEAM_ID = os.getenv("SOCIAL_AUTH_APPLE_TEAM_ID")
 SOCIAL_AUTH_APPLE_CLIENT_ID = os.getenv("SOCIAL_AUTH_APPLE_CLIENT_ID")
 SOCIAL_AUTH_APPLE_KEY_ID = os.getenv("SOCIAL_AUTH_APPLE_KEY_ID")
 FRONTEND_REDIRECT_URL = os.getenv("FRONTEND_REDIRECT_URL")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': datetime.timedelta(days=15),

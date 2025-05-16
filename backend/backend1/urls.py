@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import ExerciseListView, LoginAPIView, RegisterAPIView, UserView,LogoutView, SaveWorkOutView,  UserPlannedWorkoutsView, UserSavedWorkoutsView, SigninWIthApple, VerifyOTPAPIView, UploadWorkOutView, GetBodyPartWorkOutView, SpotifyRefreshTokenView, SpotifySwapTokenView
-from .views import ResetPasswordAPIView, RequestPasswordResetAPIView, UserListView, UserDetailView, NowPlayingForUserView, UpdateNowPlayingView, EditUserView, GetUserUploadedWorkOutView,DeletePlannedWorkoutView,DeleteSavedWorkoutView, DeleteUserAccountView,ReportIssueView,DeleteUserUploadedWorkoutView
+from .views import ResetPasswordAPIView, RequestPasswordResetAPIView, UserListView, UserDetailView, NowPlayingForUserView, UpdateNowPlayingView, EditUserView, GetUserUploadedWorkOutView,DeletePlannedWorkoutView,DeleteSavedWorkoutView, DeleteUserAccountView,ReportIssueView,DeleteUserUploadedWorkoutView, GPTExerciseRecommendationView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 
 # Using `router.register(r'exercises', ExerciseViewSet)` registers the `ExerciseViewSet` with the router,
@@ -42,5 +42,6 @@ urlpatterns = [
     path('delete-saved-workout/<int:saved_workout_id>/', DeleteSavedWorkoutView.as_view(), name='delete-saved-workout'),
     path('delete-user-workout/<str:workout_id>/', DeleteUserUploadedWorkoutView.as_view(), name='delete-user-workout'),
     path('user/delete/', DeleteUserAccountView.as_view(), name='user-delete'),
-    path('report/', ReportIssueView.as_view(), name='report')
-]
+    path('report/', ReportIssueView.as_view(), name='report'),
+    path('gpt-chat/', GPTExerciseRecommendationView.as_view(), name='gpt-chat')
+    ]
